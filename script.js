@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const allRadios = document.querySelectorAll('input[type="radio"][name="size"]');
             allRadios.forEach(radio => {
                 const label = document.querySelector(`label[for="${radio.id}"]`);
+                radio.style.color = "#3A4980"
                 label.style.color = '#726C6C'; // Reset label color
             });
             const allSizeDivs = document.querySelectorAll('.size-option');
