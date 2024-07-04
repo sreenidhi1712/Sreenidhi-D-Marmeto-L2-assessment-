@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <div class="product-container">
+             <div class="product-images">
+                  <div id="main-image">
+                     
+                  </div>
+                  <div id="image-variants">
+
+                  </div>
+
+             </div>
+
+             <div class="product-details">
+                            <div class=" details-contents">
+                                <div class="product-name">
+                                    <p id="product-vendor"></p>
+                                    <p id="product-title"></p>
+                                </div>      
+                            </div>
+
+                            <div class="details-contents price-offer">
+                                <div class="price">
+                                    <p id="product-price"></p>
+                                    <p id="compare-at-price" class="main-price"></p>
+                                </div>
+                                <p id="percentage"></p>   
+                            </div>
+
+                            <div class="color-varient details-contents">
+                                <div class="color-cont">
+                                   <p class="color-title">Choose a Color</p>
+                                    <div id="color-picker"></div>
+                                </div>  
+                            </div>
+
+                            <div class="product-size details-contents">
+                                         <div class="size-container">
+                                                    <p>Choose a Size</p>
+                                                    <div id="size-picker"></div>
+                                         </div>
+                                         <div class="btn-container">
+                                                   <div class="qtn-btn">
+                                                       <button id="decrement">-</button>
+                                                       <p id="quantity">1</p>
+                                                       <button id="increment">+</button>
+                                                   </div>
+                                                   <div class="addtocart-btn" id="add-to-cart-btn">
+                                                      <img src="./Vector.svg" alt="cart-icon">
+                                                      <p>Add to Cart</p>
+                                                   </div>
+                                         </div>
+                                         <div id="message-container"  style="display: none;">
+                                                <p id="cart-message"></p>
+                                         </div>
+                            </div>
+
+                            <div class="description " >
+                                   <div id="product-description"></div>                         
+                            </div>
+             </div>
+
+
+    </div>
+                              
+    <script src="./script.js"></script>
+</body>
+
+</html>
